@@ -1,0 +1,46 @@
+.slick-contain {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.slides {
+  border: 1px solid hsl(0, 0%, 81%);
+  overflow: hidden;
+  max-width: 100%;
+}
+.carousal-img {
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+.contents {
+  background-color: white;
+  border-radius: 50% 50% 0 0;
+  padding-top: 3rem;
+  margin-top: -7rem;
+  height: 60%;
+}
+.slick-contain p {
+  color: #1d29ff;
+}
+.slick-slider {
+  margin-top: -11em;
+}
+.img-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.carousal-icon {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 5rem;
+  max-width: 30%;
+}
+
+.image-container .slick-dots .slick-active li button::before {
+  color: #fa6e05 !important;
+  border: 2px solid #fa6e05;
+  font-size: 15px !important;
+  border-radius: 100%;
+  /* margin-top: 5rem; */
+}

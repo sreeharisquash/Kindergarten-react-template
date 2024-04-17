@@ -1,0 +1,32 @@
+.section8-container {
+  background-color: #f1f1f1;
+  padding: 5rem 0 5rem 0;
+}
+
+.mail-box {
+  border: none !important;
+}
+.section8-container .mail-box {
+  width: 100%;
+  border-radius: 50px 0px 0px 50px;
+  padding: 1rem 1rem 1rem 2rem;
+}
+.section8-container .common-btn {
+  border-radius: 0px 50px 50px 0px;
+}
+.mail-info {
+  display: flex;
+  gap: 1rem;
+}
+.mail-info h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+@media (max-device-width: 991px) {
+  .mail-info {
+    margin-bottom: 3rem;
+  }
+}

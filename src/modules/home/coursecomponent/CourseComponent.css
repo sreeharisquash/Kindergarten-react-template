@@ -1,0 +1,66 @@
+.card {
+  position: relative;
+}
+.course-individual-component{
+  display: flex;
+  justify-content: center;
+}
+.course-individual-component .category-cont {
+  background-color: #1d29ff;
+  padding: 0px 10px 0px 10px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.author-cont {
+  color: black !important;
+  /* font-weight: 600    ; */
+}
+.card-title {
+  text-align: left;
+}
+.duration-element,
+.students-element {
+  display: flex;
+  gap: 0.5rem;
+}
+.duration-element::before {
+  content: url("../../../assets/images/course/icons/duration.svg");
+}
+.students-element::before {
+  content: url("../../../assets/images/course/icons/students.svg");
+}
+.free-class {
+  color: #f57005;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.view-more {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.lining {
+  display: flex;
+  margin-bottom: 0.938rem;
+  /* margin-top: 0.938rem; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #bbbbbb;
+  max-width: 90%;
+}
+.course-individual-component .card{
+  max-width: max-content;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+
+}
+

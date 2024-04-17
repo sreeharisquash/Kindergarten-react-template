@@ -1,0 +1,13 @@
+.next-btn .common-btn {
+  padding: 0.5rem 1rem 0.5rem 1rem ;
+  border-radius: 8px;
+  position: absolute;
+  right: 1.5rem;
+  top: 4.5rem;
+}
+.next-btn .common-btn::before {
+  content: url("../../../assets/images/blogdetailcarousal/icons/slick-next-icon.svg");
+}
+.carousal-cls .slides {
+  position: relative;
+}

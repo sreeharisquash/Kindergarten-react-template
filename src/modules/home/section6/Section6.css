@@ -1,0 +1,38 @@
+.section6-container {
+  background-color: #f1f1f1;
+  padding: 5rem 0 5rem 0;
+}
+
+.border-blue {
+  border-radius: 96.88px 0px 99.88px 100.88px;
+  border: 6px solid #1d29ff;
+  max-width: fit-content;
+  margin-top: 2rem;
+}
+
+@media (max-width:376px){
+  .border-blue{
+    border:none
+  }
+}
+.border-blue-img {
+  transition: 0.3s;
+}
+.border-blue-img:hover {
+  transform: translateY(30px) translateX(-30px);
+}
+
+@media (max-width:1199px){
+    .bordering-items {
+        display: flex;
+        flex-direction: column;
+
+      }
+      .bordering-items .col-lg-4{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+      }
+}
+

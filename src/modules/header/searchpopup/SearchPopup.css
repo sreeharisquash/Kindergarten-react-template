@@ -1,0 +1,7 @@
+.search-popup {
+  background-color: black;
+  padding: rem;
+  border-radius: 30px;
+  position: fixed;
+  top: 5.5rem;
+}

@@ -1,0 +1,141 @@
+
+.faq-drop .btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active .Dropdown.ItemText {
+      color: black !important;
+}
+.faq-drop .btn:hover {
+    background-color: none;
+    border-color: none;
+}
+.faq-drop .btn-primary {
+  color: #170f58;
+  border: none;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+
+}
+.faq-drop .dropdown-menu {
+  border: none;
+}
+
+.faq-drop  .btn-primary {
+  max-width: 100%;
+  min-width: 100%;
+  text-align: left;
+  gap: 8px;
+  padding: 20px;
+  font-size: 22px;
+}
+
+.custom-dropdown-arrow {
+  &.dropdown-open {
+    margin-bottom: 15rem;
+  }
+}
+
+.faq-drop .dropdown-item-text {
+  padding: 1rem;
+ background-color: #F1F1F1;
+ margin-top: -0.9rem;
+}
+.detail-drop .dropdown-menu {
+  border: 1px solid #bbbbbb;
+}
+.custom-dropdown-arrow {
+  position: relative;
+
+}
+
+.faq-drop .dropdown-toggle::after {
+  content: none;
+  background-image: url("../../../assets/images/faq/icons/drop-inactive.svg");
+  position: absolute;
+  top: 2rem;
+  right: 2%;
+}
+.active-caret {
+  background-image: url("../../../assets/images/faq/icons/drop-inactive.svg");
+  position: relative;
+  z-index: 2;
+}
+.inactive-caret {
+  background-image: url("../../../assets/images/faq/icons/drop-inactive.svg");
+  position: relative;
+  z-index: 1;
+}
+@media (min-device-width: 549px) and (max-device-width: 1199px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 15rem;
+    }
+  }
+}
+@media (min-device-width: 485px) and (max-device-width: 548px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 17rem;
+    }
+  }
+}
+@media (min-device-width: 440px) and (max-device-width: 484px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 19rem;
+    }
+  }
+}
+@media (min-device-width: 421px) and (max-device-width: 439px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 20rem;
+    }
+  }
+}
+@media (min-device-width: 330px) and (max-device-width: 420px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 15rem;
+    }
+  }
+}
+@media (min-device-width: 268px) and (max-device-width: 329px) {
+  .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 18rem;
+    }
+  }
+}
+@media (max-device-width: 1024px) {
+  .section8 .btn-primary {
+    font-size: 15px;
+    padding: 1rem 14rem 1.5rem 1rem;
+  }
+}
+@media (max-device-width: 768px) {
+  .section8 .col-lg-4 {
+    display: flex;
+    justify-content: center;
+  }
+  .section8 .btn-primary {
+    gap: 0;
+
+    font-size: 19px;
+  }
+}
+
+@media (max-device-width: 567px) {
+  .section8 .btn-primary {
+    font-size: 13px;
+  }
+}
+
+.faq-drop img{
+    position: absolute;
+    right: 1rem;
+}

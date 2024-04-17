@@ -1,0 +1,21 @@
+.common-btn {
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  position: relative;
+  text-transform: capitalize;
+}
+.common-btn:hover {
+  transform: scale(1.1);
+}
+/* .common-btn::after{
+  content: '>';
+  position: absolute;
+  right: ;
+} */

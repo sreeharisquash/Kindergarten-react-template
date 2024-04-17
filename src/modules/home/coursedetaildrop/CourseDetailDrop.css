@@ -1,0 +1,71 @@
+.course-drop .icon-align-course {
+  left: 1rem;
+}
+#dropdown-item-button h6 {
+  margin-left: 2rem;
+}
+.lecture-duration {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  right: 1rem;
+}
+.custom-dropdown-arrow {
+  &.dropdown-open {
+    margin-bottom: 10rem;
+  }
+}
+ .course-drop .dropdown-menu {
+  width: 100%;
+  border-color: #bbbbbb;
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: -0.5rem;
+}
+.course-drop .dropdown-item-text {
+background-color: white;
+margin-bottom: 1rem;
+}
+.course-drop
+.lecture-duration .lecture-bef,
+.lecture-duration .duration-bef {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  margin-left: 2rem;
+}
+.lecture-duration .lecture-bef::before {
+  content: url("../../../assets/images/coursedetail/icons/lecturesicon.svg");
+  position: absolute;
+  margin-left: -2rem;
+  top: 0.15rem;
+}
+
+.lecture-duration .duration-bef::before {
+    content: url("../../../assets/images/coursedetail/icons/ci-clock.svg");
+    position: absolute;
+    margin-left: -2rem;
+    top: 0.10rem;
+  }
+  .orange-color{
+    color: #F57005;
+  }
+  
+  .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border-color: #bbbbbb;
+  }
+  .lecture-duration p{
+    color: black;
+  }
+.button-contents{
+  display: flex;
+}
+  @media (max-width:520px){
+    .lecture-duration{
+      display: block;
+    }
+    .detail-drop .course-drop .btn-primary{
+      height: 7rem;
+    }
+  }

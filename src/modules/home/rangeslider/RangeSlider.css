@@ -1,0 +1,49 @@
+/* Styles for the slider component */
+.price-slider {
+  max-width: 100%;
+}
+.slider {
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Styles for the slider thumb */
+.slider .thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  cursor: grab;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the slider active state */
+.slider .thumb.active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.minPrice,
+.maxprice {
+  max-width: 50%;
+  border: none;
+}
+.ranage-slider-contain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.price-slider .slider .thumb {
+  background-color: #f57005;
+}
+.price-slider .slider {
+  background-color: #ffddd1;
+  border-radius: 20px;
+}
+.pricing-sec {
+  border: 1px solid #bbbbbb;
+  padding: 1rem 0.8rem 1rem 0.5rem;
+  max-width: 48%;
+}

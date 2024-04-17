@@ -1,0 +1,272 @@
+.aboutus-breadcrumb {
+  background-image: url("../../../assets/images/aboutus/images/aboutus-breadcrumbimg.svg");
+  background-position: center;
+  padding: 7rem 0 7rem 0;
+  margin-top: -8rem;
+}
+.aboutus-container h2 {
+  text-align: left;
+}
+.reasons-contain h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.reasons-contain {
+  display: flex;
+  gap: 1rem;
+}
+.reasons-contain::before {
+  content: url("../../../assets/images/aboutus/icons/CheckCircle.svg");
+}
+.counter-container {
+  background-color: #f1f1f1;
+  padding: 2rem 0 2rem 0;
+  margin-top: 5rem;
+}
+.students-cls,
+.success-cls,
+.instructor-cls,
+.language-cls,
+.companies-cls {
+  display: flex;
+  gap: 1rem;
+}
+.counter-container h3 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.students-cls::before {
+  content: url("../../../assets/images/aboutus/icons/Users.svg");
+}
+.success-cls::before {
+  content: url("../../../assets/images/aboutus/icons/CircleWavyCheck.svg");
+}
+.instructor-cls::before {
+  content: url("../../../assets/images/aboutus/icons/Notebook.svg");
+}
+.language-cls::before {
+  content: url("../../../assets/images/aboutus/icons/GlobeHemisphereWest.svg");
+}
+.companies-cls::before {
+  content: url("../../../assets/images/aboutus/icons/Stack.svg");
+}
+.count-category p {
+  margin-top: -0.7rem;
+}
+.join-us {
+  padding: 6.25rem 0 6.25rem 0;
+}
+.join-us .reasons-contain {
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.best-courses {
+  background-color: #f1f1f1;
+  padding: 6.25rem 0 6.25rem 0;
+}
+
+/* .relative-container {
+  position: relative;
+} */
+.img1 {
+  position: relative;
+  z-index: 0;
+}
+
+.float-icons {
+  position: relative;
+  z-index: 5;
+  transform: translate(20%, 40%);
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floaticon-1 {
+  position: absolute;
+  top: 29rem;
+  left: 16rem;
+  animation: floatAnimation 2s infinite ease-in-out;
+}
+
+.floaticon-2 {
+  position: absolute;
+  top: 29rem;
+  left: 1rem;
+  animation: floatAnimation 2s infinite ease-in-out;
+}
+.floaticon-3 {
+  position: absolute;
+  top: 15rem;
+  right: 9rem;
+  max-width: 40%;
+  animation: floatAnimation 2s infinite ease-in-out 0.5s;
+}
+
+.floaticon-4 {
+  position: absolute;
+  top: -2rem;
+  left: 5rem;
+  animation: floatAnimation 2s infinite ease-in-out 0.5s;
+}
+.floaticon-5 {
+  position: absolute;
+  top: 5rem;
+  left: -2rem;
+  animation: floatAnimation 2s infinite ease-in-out;
+}
+
+.floaticon-6 {
+  position: absolute;
+  top: 3rem;
+  right: 14rem;
+  max-width: 40%;
+  animation: floatAnimation 2s infinite ease-in-out 0.5s;
+}
+
+.floaticon-7 {
+  position: absolute;
+  top: 16rem;
+  left: -8rem;
+  max-width: 40%;
+  animation: floatAnimation 2s infinite ease-in-out 0.5s;
+}
+.counter-container .row > .col-lg-2{
+  padding: 0;
+}
+@media (max-width: 1400px) {
+  .floaticon-6,
+  .floaticon-7,
+  .floaticon-2 {
+    max-width: 35%;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .floaticon-6 {
+    right: 10rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .floaticon-6 {
+    right: 9rem;
+  }
+  .floaticon-2 {
+    top: 25rem;
+  }
+  .floaticon-3 {
+    top: 12rem;
+    right: 3rem;
+  }
+  .floaticon-1 {
+    top: 19rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .floaticon-6 {
+    right: 6rem;
+  }
+  .floaticon-3 {
+    top: 12rem;
+    right: 2rem;
+  }
+  .floaticon-7{
+    top: 15rem;
+    left: -5rem;
+  }
+  .floaticon-2{
+    top: 22rem;
+    left: 5rem;
+  }
+  .floaticon-1{
+    top: 17rem;
+    left: 11rem;
+  }
+}
+@media (max-width:991px){
+  .floaticon-6,
+  .floaticon-7,
+  .floaticon-2 {
+    max-width: 29%;
+  }
+  .floaticon-4{
+    max-width: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .floaticon-3{
+    right: 11rem;
+  }
+  .floaticon-6{
+    top: 3rem;
+    right: 18rem;
+  }
+  .floaticon-2{
+    top: 30rem;
+  }
+  .floaticon-1{
+    top: 27rem;
+  }
+}
+@media (min-width: 528px) and (max-width: 767px) {
+.floaticon-6{
+  right: 10rem;
+}
+.floaticon-3{
+  right: 4rem;
+}
+.floaticon-2{
+  top: 25rem;
+}
+.floaticon-1{
+  top: 21rem;
+    left: 13rem;
+}
+.floaticon-4{
+  top: 0rem;
+}
+}
+@media (min-width: 0px) and (max-width: 527px) {
+  .floaticon-6{
+    right: 10rem;
+  }
+  .floaticon-3{
+    right: 4rem;
+  }
+  .floaticon-2{
+    top: 20rem;
+  }
+  .floaticon-1{
+    top: 19rem;
+    left: 9rem;
+  }
+  .floaticon-4{
+    top: 0rem;
+  }
+  .floaticon-7{
+    left: -5rem;
+  }
+  }
+
+  @media (max-width:480px){
+    .float-icons{
+      display: none;
+    }
+  }

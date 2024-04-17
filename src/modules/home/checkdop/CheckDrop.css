@@ -1,0 +1,66 @@
+/* .check-drop .title-des{
+    display: flex;
+    justify-content: space-between;
+} */
+.check-drop .custom-dropdown-arrow {
+  &.dropdown-open {
+    margin-bottom: 35rem;
+  }
+}
+.check-drop .dropdown-menu , .courselist-drop{
+  --bs-dropdown-link-hover-bg:white;
+  --bs-dropdown-link-active-bg: white;
+}
+
+.check-drop .btn-primary {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 1.875rem;
+  padding: 20px;
+}
+.check-drop .dropdown-toggle::after {
+  content: none;
+}
+.check-drop .dropdown-menu {
+  width: 100%;
+  border-color: #bbbbbb;
+  /* border-top: none; */
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: -0.5rem;
+}
+.check-drop .dropdown-item-text {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.check-drop .btn-primary:focus {
+  background-color: white;
+}
+.title-tool {
+  display: flex;
+  justify-content: space-between;
+}
+.check-drop .title-des {
+  position: relative;
+  display: flex;
+  margin-left: 2rem;
+  z-index: 100;
+  /* align-items: center; */
+}
+.check-drop .checkbox {
+  position: absolute;
+  top: 0.4rem;
+  left: -2rem;
+}
+.rating-drop .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 25rem;
+    }
+  }
+  .course-drop .custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 20rem;
+    }
+  }

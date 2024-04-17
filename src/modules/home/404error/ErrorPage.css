@@ -1,0 +1,23 @@
+.error-breadcrumb{
+    background-image: url('../../../assets/images/contactUs/images/aboutus-breadcrumbimg.svg');
+    background-position: center;
+    padding-bottom: 6.25rem;
+}
+
+.error-msg h3{
+    color: #474747;
+font-size: 44px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.error-container h1 , .error-container h4{
+    text-align: center;
+    color:white;
+}
+.color-orange{
+    color: #F57105;
+}

@@ -1,0 +1,67 @@
+.faq-breadcrumb {
+  background-image: url("../../../assets/images/aboutus/images/aboutus-breadcrumbimg.svg");
+  background-position: center;
+  padding: 6.25rem 0 6.25rem 0;
+  margin-top: -8rem;
+}
+.faq-container h2 {
+  text-align: left;
+}
+.head-dropdown .btn-success {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  border-color: #bbbbbb;
+  gap: 4rem;
+}
+.head-dropdown {
+  margin-top: 6.25rem;
+}
+.drops .btn-primary {
+  background-color: #f1f1f1;
+  border-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.875rem;
+}
+.form-sec {
+  background-color: #f1f1f1;
+  padding: 1.25rem;
+}
+.phone-cls,
+.fax-cls,
+.email-cls {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+}
+.form-sec input , .form-sec textarea{
+  border: none;
+  padding: 12px 20px 12px 20px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.form-sec h5 {
+  text-align: left;
+}
+
+.form-sec textarea{
+    height: 7.5rem;
+}
+.head-dropdown .dropdown-toggle:focus{
+    background-color: white !important;
+    border: 1px solid #bbbbbb !important;
+
+}

@@ -1,0 +1,16 @@
+.prev-btn .common-btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 8px;
+  position: absolute;
+  left: 1.5rem;
+  top: 4.5rem;
+  z-index: 5;
+}
+.prev-btn .common-btn::before {
+  content: url("../../../assets/images/blogdetailcarousal/icons/slick-prev-icon.svg");
+  /* position: absolute;
+    left:1rem; */
+}
+.carousal-cls .slides {
+  position: relative;
+}

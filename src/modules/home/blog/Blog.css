@@ -1,0 +1,7 @@
+.blog-breadcrumb{
+    background-image: url("../../../assets/images/course/images/course-breadcrumb.svg");
+    background-position: center;
+    padding: 6.25rem 0 6.25rem 0;
+    margin-bottom: 6.25rem;
+    margin-top: -8rem;
+}

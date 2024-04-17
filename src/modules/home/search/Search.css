@@ -1,0 +1,33 @@
+.input-group .btn:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    
+}
+.input-group .btn{
+    position: absolute;
+    left: 0;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    border:none;
+    padding: 1rem;
+}
+.input-group .form-control {
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    padding: 1rem;
+}
+.input-group .form-label{
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+.input-group .fa{
+    color: black;
+}
+.input-group .ripple{
+    border-top-left-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+}

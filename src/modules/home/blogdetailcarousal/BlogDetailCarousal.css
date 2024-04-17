@@ -1,0 +1,232 @@
+.carousal-cls .slides {
+  /* background-color: red; */
+  padding: 3rem 4rem 3rem 4rem;
+  border-radius: 30px;
+  position: relative;
+}
+.carousal-cls .contents h5 {
+  text-align: left;
+}
+
+.carousal-cls .slick-prev,
+.carousal-cls .slick-next {
+  position: relative;
+  z-index: 500;
+}
+.carousal-cls .slick-prev:before {
+  content: url("../../../assets/images/blogdetailcarousal/icons/slick-prev-icon.svg");
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 1rem 1rem 1.5rem 1rem;
+  top: 6rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  left: 3rem;
+}
+.carousal-cls .slick-next::before {
+  content: url("../../../assets/images/blogdetailcarousal/icons/next-icon.svg");
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 1rem 1rem 1.5rem 1rem;
+  bottom: 5rem;
+  left: 51rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.carousal-cls .slick-next:hover::before ,.carousal-cls .slick-prev:hover::before {
+  background-color: #f57005;
+  /* transform: scale(1.1); */
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .carousal-cls .slick-next::before {
+    left: 48rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .carousal-cls .slick-next::before {
+    left: 40.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousal-cls .slick-next::before {
+    bottom: 9rem;
+    left: 33rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6.5rem;
+    left: 38rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousal-cls .slick-next::before {
+    bottom: 4rem;
+    left: 38rem;
+  }
+  .carousal-cls .slick-prev:before {
+    top: 7.5rem;
+  }
+}
+/* @media (min-width:600px) and (max-width:767px){
+  .carousal-cls .slick-next::before {
+    bottom: 9rem;
+    left: 27rem;
+  }
+} */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .carousal-cls .slick-prev:before {
+    top: 7rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousal-cls .slick-prev:before {
+    top: 9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .carousal-cls .slick-prev:before {
+    top: 8.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousal-cls .slick-prev:before {
+    top: 7.5rem;
+  }
+  .carousal-cls .slick-next::before {
+    bottom: 6rem;
+    left: 26rem;
+  }
+}
+
+@media (min-width: 569px) and (max-width: 575px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6.5rem;
+    left: 28.5rem;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 568px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6rem;
+    left: 26.5rem;
+  }
+}
+
+@media (min-width: 512px) and (max-width: 539px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 25rem;
+  }
+}
+@media (min-width: 486px) and (max-width: 511px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 23.5rem;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 485px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 22.5rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 469px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 21rem;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 449px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6rem;
+    left: 19rem;
+  }
+}
+
+@media (max-width: 419px) {
+  body h5 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 400px) and (max-width: 419px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 18rem;
+  }
+}
+@media (min-width: 380px) and (max-width: 399px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6.5rem;
+    left: 17rem;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 379px) {
+  .carousal-cls .slick-next::before {
+    bottom: 5rem;
+    left: 16rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 364px) {
+  .carousal-cls .slick-next::before {
+    bottom: 7rem;
+    left: 15rem;
+  }
+}
+
+@media (min-width: 333px) and (max-width: 349px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6.5rem;
+    left: 14rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 332px) {
+  .carousal-cls .slick-next::before {
+    bottom: 9rem;
+    left: 13rem;
+  }
+}
+
+@media (min-width: 300x) and (max-width: 565px) {
+  .carousal-cls .slick-next::before {
+    bottom: 6.5rem;
+    left: 28.5rem;
+  }
+}
+@media (min-width: 407px) and (max-width: 479px) {
+  .carousal-cls .slick-prev:before {
+    top: 9rem;
+  }
+}
+
+@media (min-width: 334px) and (max-width: 406px) {
+  .carousal-cls .slick-prev:before {
+    top: 8rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 333px) {
+  .carousal-cls .slick-prev:before {
+    top: 10rem;
+  }
+}

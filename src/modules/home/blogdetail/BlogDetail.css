@@ -1,0 +1,294 @@
+.blogdetail-breadcrumb {
+  background-image: url("../../../assets//images/aboutus/images/aboutus-breadcrumbimg.svg");
+  background-position: center;
+  padding: 6.25rem 0 6.25rem 0;
+  margin-bottom: 6.25rem;
+  margin-top: -8rem;
+}
+.blog-detail-container h2 {
+  text-align: left;
+}
+.input-contain h3 {
+  text-align: left;
+  color: black;
+}
+
+.blog-det {
+  position: relative;
+  width: 100%;
+}
+.hide-cls {
+  position: absolute;
+  left: 5;
+}
+input:focus + .hide-cls {
+  display: none !important;
+}
+
+.blog-det input[required] + label {
+  position: absolute;
+  left: 6%;
+  top: 17%;
+  color: grey;
+  opacity: 0.8;
+}
+
+.designation-para {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.designation-para::before {
+  content: url("../../../assets/images/blogdetail/icons/blog-detail-profileicon.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.date-para {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.date-para::before {
+  content: url("../../../assets/images/blogdetail/icons/blog-detail-calendericon.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.comment-para {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.comment-para::before {
+  content: url("../../../assets/images/blogdetail/icons/blog-detail-commenticon.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.image-content {
+  margin-top: 1.875rem;
+}
+.single-testimonial {
+  background-color: #dcdeff;
+  padding: 3.5rem 1.5rem 2rem 1.5rem;
+  position: relative;
+  margin-top: 3.125rem;
+}
+.single-testimonial::before {
+  content: url("../../../assets/images/blogdetail/icons/blogdetail-top-quotation.svg");
+  position: absolute;
+  left: 1rem;
+  top: -1.5rem;
+}
+.single-testimonial::after {
+  content: url("../../../assets/images/blogdetail/icons/blogdetail-bottom-quotation.svg");
+  position: absolute;
+  right: 1rem;
+  bottom: -1.5rem;
+}
+.single-testimonial h3 {
+  color: #1d29ff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.carousal-secion {
+  margin-top: 13rem;
+}
+
+.carousal-secion .slick-dots {
+  display: none !important;
+}
+
+.tag-container {
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+  border: 1px solid #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags {
+  display: flex;
+  /* gap:7px; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1.875rem;
+}
+.share {
+  display: flex;
+  align-items: baseline;
+  margin-top: 2rem;
+  gap: 20px;
+}
+.comments-section {
+  padding-top: 3.125rem;
+}
+.comments-section h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sub-comment {
+  margin-left: 5rem;
+}
+.fax-cls,
+.email-cls {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.contact-breadcrumb {
+  background-image: url("../../../assets/images/contactUs/images/aboutus-breadcrumbimg.svg");
+  background-position: center;
+  padding: 0 0 9.375rem 0;
+}
+.contactus-container h2 {
+  text-align: left;
+}
+.contact-data {
+  padding: 6.25rem 0 0 0;
+}
+.blog-detail-container .input-contain input {
+  border: 1px solid #cccccc;
+  padding: 12px 20px 12px 20px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.blog-detail-container input::placeholder {
+  color: #999999;
+}
+.input-contain {
+  margin-top: 2.5rem;
+  padding-bottom: 6rem;
+}
+
+.phone-cls,
+.fax-cls,
+.email-cls {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.info {
+  width: max-content;
+}
+.info p {
+  color: #888888;
+  text-align: left;
+  margin-top: -0.5rem;
+}
+.info h5 {
+  text-align: left;
+  margin-top: 0.6rem;
+}
+
+.checkbox-save {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.checkbox-cls:checked {
+  background-color: #f57005;
+}
+
+.second-dropdown .main-title {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 3rem;
+  padding: 20px;
+}
+
+.second-dropdown .dropdown-menu {
+  width: 26.4%;
+  border-radius: 0 0 10px 10px;
+  padding: 2rem;
+}
+
+.date-before {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 0.5rem;
+  margin-left: 1.5rem;
+}
+.date-before::before {
+  content: url("../../../assets/images/blogdetail/icons/blog-detail-calendericon.svg");
+  position: absolute;
+  top: 0.1rem;
+  margin-left: -1.5rem;
+}
+.recent-post {
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  padding: 25px 18px 25px 18px;
+  margin-bottom: 1.25rem;
+}
+.recent-post h5,
+.tags-cont h5 {
+  text-align: left;
+}
+.tags-cont {
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  padding: 25px 18px 25px 18px;
+  display: flex;
+}
+.tags-cont p {
+  border: 1px solid #bbbbbb;
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+}
+.onImgHover {
+  transition: 0.3s;
+}
+
+.onImgHover:hover {
+  transform: scale(1.5);
+}
+
+.tag-container {
+  transition: 0.3s;
+}
+
+.tag-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.tag-container:hover {
+  color: white;
+  background-color: #f57005;
+}
+
+@media (max-width: 991px) {
+  .tags {
+    gap: 1rem;
+  }
+}

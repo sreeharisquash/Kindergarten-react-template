@@ -1,0 +1,11 @@
+.map-overlay{
+    position: relative;
+     
+
+}
+
+.map-overlay .overlay-img{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}

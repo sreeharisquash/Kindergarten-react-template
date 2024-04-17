@@ -1,0 +1,31 @@
+.designation-sec {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 2rem;
+}
+.designation-sec::before {
+  content: url("../../../assets/images/section7/icons/user.svg");
+  position: absolute;
+  left: -2rem;
+  top: 0.2rem;
+}
+.date-sec {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 2rem;
+}
+.date-sec::before {
+  content: url("../../../assets/images/section7/icons/calender.svg");
+  position: absolute;
+  left: -2rem;
+  top: 0.2rem;
+}
+
+.course-individual-component{
+  transition: 0.3s;
+}
+.course-individual-component:hover{
+  transform: scale(1.04);
+}

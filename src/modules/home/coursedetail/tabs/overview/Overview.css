@@ -1,0 +1,16 @@
+.overview-container h3 {
+  color: black;
+  text-align: left;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+.overview-container {
+    padding: 1.875rem 0 0 0;
+}
+
+.overview-para{
+    padding: 1.875rem 0 1.875rem 0;
+}

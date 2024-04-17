@@ -1,0 +1,14 @@
+.MuiPagination-root{
+    display: flex;
+    justify-content: center !important;
+    padding: 2rem 0 0 0;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: #1D29FF !important;
+}
+/* .css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled {
+display: none;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled::before{
+    
+} */

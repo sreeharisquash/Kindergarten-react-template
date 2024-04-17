@@ -1,0 +1,193 @@
+.courselist-breadcrumbs {
+  background-image: url("../../../assets/images/course/images/course-breadcrumb.svg");
+  background-position: center;
+  padding: 6.25rem 0 6.25rem 0;
+  margin-top: -8rem;
+}
+/* .side-dropdown{
+    position: relative;
+} */
+.side-dropdown .main-title {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 3rem;
+  padding: 20px;
+}
+
+.side-dropdown .dropdown-menu {
+  width: 26.6%;
+  border-radius: 0 0 10px 10px;
+  padding: 2rem;
+}
+.side-dropdown .dropdown-item {
+  padding: 0.5rem 0 0.5rem 0;
+  /* border-bottom: 1px solid black; */
+}
+.side-dropdown .sub-firstdrop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.form-outline{
+  width: 100%;
+}
+.development,
+.Business,
+.Finance,
+.Software,
+.Productivity,
+.Personal,
+.Design,
+.Marketing {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin-left: 1rem;
+  border-bottom: 1px;
+}
+.development::before {
+  content: url("../../../assets/images/courselist/icons/Cpu.svg");
+  position: absolute;
+  left: -2rem;
+  top: 0.09rem;
+}
+.Business::before {
+    content: url("../../../assets/images/courselist/icons/Handshake.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Finance::before {
+    content: url("../../../assets/images/courselist/icons/CreditCard.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Software::before {
+    content: url("../../../assets/images/courselist/icons/ChartBarHorizontal.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Productivity::before {
+    content: url("../../../assets/images/courselist/icons/BugDroid.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Personal::before {
+    content: url("../../../assets/images/courselist/icons/Receipt.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Design::before {
+    content: url("../../../assets/images/courselist/icons/PenNib.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .Marketing::before{
+    content: url("../../../assets/images/courselist/icons/MegaphoneSimple.svg");
+    position: absolute;
+    left: -2rem;
+    top: 0.09rem;
+  }
+  .sub-firstdrop p{
+    color: black;
+  }
+ .side-dropdown .form-check-input:checked{
+    background-color:#F57005 ;
+    border-color: #F57005;
+ }
+ .form-check-input:checked + .form-check-label .check-box p ,.form-check-input:checked + .form-check-label .check-box span{
+    color: #F57005;
+  }
+ .check-box{
+    display: flex;
+}
+.form-check{
+    position: relative;
+}
+.check-box span{
+    position: absolute;
+    right: 0;
+}
+.star{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    position: relative;
+    margin-left: 1.3rem;
+}
+.star::before{
+    content: url('../../../assets/images/courselist/icons/Star.svg');
+    position: absolute;
+    top: 0.2rem;
+    left: -1.5rem;
+}
+
+.mini-dropdown .dropdown-toggle{
+    display: flex;
+    align-items: baseline;
+    /* justify-content:  space-between; */
+    gap: 2rem;
+}
+.mini-dropdown .nav-link {
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    padding: 1rem 7rem 1rem 2rem;
+    position: relative;
+    /* margin-top: 2rem; */
+}
+.mini-dropdown .dropdown-toggle::after{
+    position: absolute;
+    right: 1rem;
+    bottom: 1.7rem;
+}
+.mini-dropdown .dropdown-menu {
+    margin-top: 0.5rem;
+
+}
+.courselist-drop .btn-primary{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #BBBBBB;
+  padding: 20px;
+  margin-bottom: 1.5rem;
+  background-color: white;
+}
+.courselist-drop .btn-primary:focus{
+  background-color: white;
+}
+.courselist-drop .dropdown-toggle::after{
+  content: none;
+}
+.courselist-drop .dropdown-menu{
+  width: 100%;
+  /* border-top: none; */
+  margin-top: -0.5rem;
+  border-color:#BBBBBB ;
+}
+.courselist-drop .custom-dropdown-arrow {
+  &.dropdown-open {
+    margin-bottom: 32rem;
+  }
+}
+ .tools-drop .custom-dropdown-arrow {
+  &.dropdown-open {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .course-input-sec  {
+    justify-content: center ;
+  }
+}

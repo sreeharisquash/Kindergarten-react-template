@@ -1,0 +1,12 @@
+
+.section5-container {
+    padding: 5rem 0 13rem 0;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.carousal{
+    margin-top: 10rem;
+}
+.section5-container .slick-slider .slick-prev , .section5-container .slick-slider .slick-next{
+    display: none !important;
+}

@@ -1,0 +1,110 @@
+.section7-container {
+  padding: 5rem 0 5rem 0;
+}
+.blogs-contents {
+  background-color: #f1f1f1;
+  padding: 3rem;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.blogs-img {
+  position: relative;
+  z-index: -2;
+}
+.field-section {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: #1d29ff;
+  padding: 0 1.5rem 0 1.5rem;
+  z-index: 2;
+  color: white;
+  border-radius: 20px;
+}
+.designation {
+  /* display: flex; */
+  align-items: center;
+  position: relative;
+}
+.designation::before {
+  content: url("../../../assets/images/section7/icons/user.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.date {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.date::before {
+  content: url("../../../assets/images/section7/icons/calender.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.blogs-contents span {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section7-container h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.designation-view {
+  /* display: flex; */
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.designation-view::before {
+  content: url("../../../assets/images/section7/icons/user.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.01rem;
+}
+.date-view {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 1rem;
+}
+.date-view::before {
+  content: url("../../../assets/images/section7/icons/calender.svg");
+  position: absolute;
+  left: -1.5rem;
+  top: 0.2rem;
+}
+.view-cls {
+  margin-bottom: 2rem;
+}
+.section7-container .hover-cont {
+  transition: 0.3s;
+}
+.section7-container .hover-cont:hover {
+  transform: scale(1.03);
+}
+@media (min-width: 332px) {
+  .view-cls {
+    display: none !important;
+  }
+}
+@media (max-width: 331px) {
+  .hide-cls {
+    display: none !important;
+  }
+}

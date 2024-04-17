@@ -1,0 +1,36 @@
+.comments-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 2rem;
+  padding-top: 1.875rem;
+  border-top: 1px solid #eaeaea;
+}
+.comments-container h5 {
+  text-align: left;
+}
+.content p {
+  margin-top: -0.5rem;
+}
+.content-para {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.content-para::before {
+  content: url("../../../assets/images/comments/icons/reply-icon.svg");
+}
+.content-date {
+  opacity: 1;
+}
+
+@media (max-width:512px){
+  .comments-container{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+.bread-crumbs h4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    text-transform: capitalize;
+  }
+  .bread-crumbs h1 {
+    text-transform: uppercase;
+    color: white;
+    opacity: 100;
+    text-align: center;
+    font-size: 50px;
+  }
+  .bread-crumbs {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigate-link {
+    text-decoration: none;
+    color: white;
+  }
+  .orange-cls{
+    color: #F57105;
+  }

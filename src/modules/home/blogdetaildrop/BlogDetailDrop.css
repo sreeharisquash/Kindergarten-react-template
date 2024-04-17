@@ -1,0 +1,31 @@
+.custom-dropdown-arrow {
+    &.dropdown-open {
+      margin-bottom: 23rem;
+    }
+  }
+  .blogdetail-drop .faq-drop .dropdown-menu{
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: -0.5rem;
+  }
+  .blogdetail-drop .faq-drop .btn-primary{
+    background-color: white;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 1.875rem;
+  }
+  .text-orange-cls{
+    color: #F57005;
+  }
+  .title-des{
+    display: flex;
+    justify-content: space-between;
+  }
+  .title-des:hover{
+    color:#F57005;
+    background-color: white;
+    border-color: white;
+  }
